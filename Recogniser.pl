@@ -27,3 +27,12 @@ v([shoots]).
 %S = [the, woman, shoots, the , man]
 %S = [the, man, shoots, a , woman]
 %....and so on
+
+%We can also query Prolog about noun phrases (np)
+
+%?- np([the,woman])
+%yes
+
+%?- np(X)
+%X = [the,man];   Note that the semiclon here means there is a second possibility
+%X = [the,woman]
