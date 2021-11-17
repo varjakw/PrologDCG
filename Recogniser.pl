@@ -36,3 +36,6 @@ v([shoots]).
 %?- np(X)
 %X = [the,man];   Note that the semiclon here means there is a second possibility
 %X = [the,woman]
+
+
+%CFG recognition using difference lists
