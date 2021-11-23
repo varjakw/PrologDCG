@@ -49,3 +49,7 @@ det([a|W]-W).
 n([man|W]-W).
 n([woman|W]-W).
 v([shoots|W]-W).
+
+%?- s(X-[]).
+%S = [the.man.shoots,the,man];
+%S = [the,man,shoots,a,man];
