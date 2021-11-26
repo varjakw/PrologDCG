@@ -1,0 +1,16 @@
+# Please copy and paste each individual section for each exercise. I have also included a text file for each exercise if you would prefer it that way.
+
+######## Problem 1 ########
+h --> colour, nation, pet.
+
+nation --> english. 
+nation --> spanish.
+nation --> japanese.
+
+colour --> red.
+colour --> blue.
+colour --> green.
+
+pet --> jaguar.
+pet --> snail.
+pet --> zebra.
