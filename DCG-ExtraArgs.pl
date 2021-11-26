@@ -17,3 +17,6 @@ pro(subject) $-->$ [he].
 pro(subject) $-->$  [she].
 pro(object) $-->$ [him].
 pro(object) $-->$ [her].
+
+%?- s([she, shoots, he],[])
+%no
