@@ -2,7 +2,7 @@
 
 ######## Problem 1 ########
 h --> colour, nation, pet.
-%h(A,B,C):- colour(
+%h(A,D):- colour(A,B), nation(B,C), pet(C,D).
 
 nation --> english. 
 nation --> spanish.
