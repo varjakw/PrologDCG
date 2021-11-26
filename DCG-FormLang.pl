@@ -1,6 +1,6 @@
 % We will define the language a^n b^n
 
-s --> [].#
+s --> [].
 s--> l,s,r.
 l --> [a].
 r --> [b].
