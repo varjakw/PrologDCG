@@ -1,0 +1,14 @@
+%DCG for a non-context-free language
+
+%Example: a^n b^n c^n (abc, aabbcc, aaabbbccc,....)
+
+s(Count) $-->$ as(Count), bs(Count), cs(Count).
+
+as(0) $-->$ [].
+as(NewCnt) $-->$ [a], as(Cnt), {NewCnt is Cnt + 1}.
+
+bs(0) $-->$ [].
+bs(NewCnt) $-->$ [b], bs(Cnt), {NewCnt is Cnt + 1}.
+
+cs(0) $-->$ [].
+cs(NewCnt) $-->$ [c], cs(Cnt), {NewCnt is Cnt + 1}.
