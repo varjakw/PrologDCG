@@ -1,8 +1,10 @@
 # Please copy and paste each individual section for each exercise. I have also included a text file for each exercise if you would prefer it that way.
 
 ######## Problem 1 ########
-nbd --> h(colour1, nation1, pet1), h(colour2, nation2, pet2),h(colour3, nation3, pet3) {colour1 \== colour2, colour2 \== colour3}
+nbd --> h(colour1, nation1, pet1), h(colour2, nation2, pet2),h(colour3, nation3, pet3) {colour1 \== colour2, colour2 \== colour3, colour1 \== colour3, nation1 \== nation2, nation2 \== nation3, nation1 \== nation3, pet1 \== pet2, pet2 \== pet3, pet1 \== pet3,  }
 %h(A,D):- colour(A,B), nation(B,C), pet(C,D).
+
+h(COLOUR, NATION, PET) --> [h(COLOUR,NATION,PET)], {colour(COLOUR), nation(NAT), pet(P)}.
 
 
 %declaring needed facts
@@ -17,3 +19,10 @@ colour(green).
 pet(jaguar).
 pet(snail).
 pet(zebra).
+
+
+######## Problem 2 ########
+
+fib --> [0,1], fib(0,1).
+fib(_,_) --> [].
+fib(A,B) --> {C is A+B}, [C], fib(B,C).
