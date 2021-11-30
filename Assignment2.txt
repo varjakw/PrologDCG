@@ -1,17 +1,19 @@
 # Please copy and paste each individual section for each exercise. I have also included a text file for each exercise if you would prefer it that way.
 
 ######## Problem 1 ########
-h --> colour, nation, pet.
+nbd --> h(colour1, nation1, pet1), h(colour2, nation2, pet2),h(colour3, nation3, pet3) {colour1 \== colour2, colour2 \== colour3}
 %h(A,D):- colour(A,B), nation(B,C), pet(C,D).
 
-nation --> english. 
-nation --> spanish.
-nation --> japanese.
 
-colour --> red.
-colour --> blue.
-colour --> green.
+%declaring needed facts
+nation(english). 
+nation(spanish).
+nation(japanese).
 
-pet --> jaguar.
-pet --> snail.
-pet --> zebra.
+colour(red).
+colour(blue).
+colour(green).
+
+pet(jaguar).
+pet(snail).
+pet(zebra).
